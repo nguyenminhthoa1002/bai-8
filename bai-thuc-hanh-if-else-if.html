@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // let day=6;
+    // switch (day) {
+    //     case 2:
+    //     case 3:
+    //     case 4:
+    //     case 5:
+    //     case 6:
+    //         console.log('Workday')
+    //         break;
+    //     case 7:
+    //     case 8:
+    //         console.log('Restday')
+    //         break;
+    //     default:
+    //         console.log('Not defined')
+    // }
+
+
+    // let number1;
+    // let number2;
+    // let maxValue = number1 > number1 : number2;
+    // console.log('maxValue', maxValue)
+
+    // let a=10;
+    // let b=26;
+    // let c=1;
+    // a>b?(a>c?max=a:max=c):(b<c?max=c:max=b)
+    // console.log('max =', max)
+
+    let tenNhap=prompt("Enter your username",'');
+    if (tenNhap=='Admin'){
+        let pass = prompt('Enter your password','');
+        if (pass=='TheMaster'){
+            alert('Welcome');
+        }else if (pass==null){
+            alert('Canceled');
+        }else {
+            alert('Wrong password');
+        }
+    } else if (tenNhap==null){
+        alert('Canceled');
+    } else {
+        alert("I don't know");
+    }
+</script>
+</body>
+</html>
